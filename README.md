@@ -21,7 +21,7 @@ The file is encoded in JSON. Attributes of the elements are described as follows
 | source     | `H`: HKSCS character; `T`: Big5 character 
 | big5       | Big-5 code point, or `null` if not applicable <sup>[1](#footnote-big5)</sup>.
 | h-source   | H-Source value, or `null` if not applicable <sup>[2](#footnote-hsource)</sup>.
-| tw-diff    | If `true`, the specified character form is different from Taiwan MoE's standard.
+| tw-diff    | If `true`, the specified character form is different from Taiwan MoE's standard, otherwise `false`. This value will be `null` for HKSCS characters.
 | page       | The page where this character is located <sup>[3](#footnote-page)</sup>.
 | position   | Start and end coordinates of the character in the page `(x1, y1, x2, y2)` <sup>[4](#footnote-coordinates)</sup>.
 
