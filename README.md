@@ -4,11 +4,11 @@
 
 The Office of the Government Chief Information Officer (OGCIO) of Hong Kong released the *[Reference Glyphs for Chinese Computer Systems in Hong Kong](https://www.ogcio.gov.hk/en/our_work/business/tech_promotion/ccli/cliac/reference_glyphs.html)* (*Reference Glyphs*) in 2016.
 
-*Reference Glyphs* provides a complete set of Chinese glyphs which covers all the characters in Big-5 and the Hong Kong Supplementary Character Set ¡V 2016. The document includes character forms (glyphs) that are deemed ¡§suitable for application in Hong Kong¡¨. Character forms that are different from the *Standard Typefaces for Chinese Characters* as specified by Taiwan's Ministry of Education (MoE) are also highlighted for clarity.
+*Reference Glyphs* provides a complete set of Chinese glyphs which covers all the characters in Big-5 and the Hong Kong Supplementary Character Set â€“ 2016. The document includes character forms (glyphs) that are deemed â€œsuitable for application in Hong Kongâ€. Character forms that are different from the *Standard Typefaces for Chinese Characters* as specified by Taiwan's Ministry of Education (MoE) are also highlighted for clarity.
 
 While the document serves valuable information to font product vendors, its distribution format (one single PDF file) isn't convenient for computer processing. For instance, it is not easy to extract the glyph of a particular code point for inspection. Also querying glyphs that are different from the MoE standard isn't straightforward. This repository serves as a community effort to fill the gap by providing a computer-friendly metadata file which data are derived from *Reference Glyphs*. Ultimately I'd hope the corresponding party to release such information officially.
 
-This is a personal project and is not affiliated with the government. The file is provided ¡§as is¡¨, use it at your own risk.
+This is a personal project and is not affiliated with the government. The file is provided â€œas isâ€, use it at your own risk.
 
 ## Data Format
 
@@ -29,6 +29,6 @@ The file is encoded in JSON. Attributes of the elements are described as follows
 
 <a name="footnote-hsource">[2]</a>: The H-Source value is derived from [Hong Kong Supplementary Character Set related information](https://data.gov.hk/tc-data/dataset/hk-ogcio-st_div_01-hong-kong-supplementary-character-set-related-information)
 
-<a name="footnote-page">[3]</a>: Page number is relative to the corresponding section (Table 1: Code Table of Hong Kong Kai Style Character Glyphs / ªşªí¤@¡G­»´ä·¢Åé¦r§Î»P¦r½Xªí or Table 2: Code Table of Hong Kong Song Style Character Glyphs / ªşªí¤G¡G­»´ä§ºÅé¦r§Î»P¦r½Xªí) of *Reference Glyphs*, not the whole PDF document.
+<a name="footnote-page">[3]</a>: Page number is relative to the corresponding section (Table 1: Code Table of Hong Kong Kai Style Character Glyphs / é™„è¡¨ä¸€ï¼šé¦™æ¸¯æ¥·é«”å­—å½¢èˆ‡å­—ç¢¼è¡¨ or Table 2: Code Table of Hong Kong Song Style Character Glyphs / é™„è¡¨äºŒï¼šé¦™æ¸¯å®‹é«”å­—å½¢èˆ‡å­—ç¢¼è¡¨) of *Reference Glyphs*, not the whole PDF document.
 
-<a name="footnote-coordinates">[4]</a>: This assumes that pages in the PDF document are exported as images in 600dpi (image resolution: 5100¡Ñ6600px).
+<a name="footnote-coordinates">[4]</a>: This assumes that pages in the PDF document are exported as images in 600dpi (image resolution: 5100Ã—6600px).
